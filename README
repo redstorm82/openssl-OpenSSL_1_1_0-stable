@@ -92,3 +92,8 @@
  are potentially subject to such restrictions you should seek competent
  professional legal advice before attempting to develop or distribute
  cryptographic code.
+
+ BUILD
+ ----------
+ 1.call setenv_*.sh to compile openssl for x86_linux,android_arm and mipsel
+ 2.after compile,the openssl will bu install on $HOME/openssl-install/$ARCH ,refer setenv_*.sh for detail info 
